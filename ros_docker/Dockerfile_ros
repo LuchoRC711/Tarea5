@@ -1,0 +1,5 @@
+FROM ros:noetic-ros-core
+
+RUN apt update && apt install -y ros-noetic-ros-tutorials
+
+CMD ["bash"]
